@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ContactList from "./components/ContactList";
-import SelectedContact from "./components/SelectedContact";
+import SelectedContact from "./components/selectedContact/SelectedContact";
 function App() {
     const [selectedContactId, setSelectedContactId] = useState(null);
     return (

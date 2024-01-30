@@ -14,6 +14,11 @@ table {
     font-weight: 600;
 }
 
+.contact-row:hover {
+    background-color: #d3daff;
+    cursor: pointer;
+}
+
 td {
     font-size: 14px;
 }
@@ -25,6 +30,7 @@ thead {
 th,
 td {
     padding: 10px;
+    cursor: pointer;
 }
 
 tbody tr:nth-child(even) {

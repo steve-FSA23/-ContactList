@@ -1,6 +1,7 @@
 const ContactRow = ({ contact, setSelectedContactId }) => {
     return (
         <tr
+            className="contact-row"
             onClick={() => {
                 setSelectedContactId(contact.id);
             }}
